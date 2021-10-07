@@ -7,7 +7,6 @@
       <li class="lista-fotos-item" v-for="foto of fotosComFiltro">
         <meu-painel :titulo="foto.titulo">
           <imagem-responsiva :url="foto.url" :titulo="foto.titulo" />
-          <img class="imagem-responsiva" v-bind:src="foto.url" :alt="foto.titulo">
         </meu-painel>|
       </li>
     </ul>
