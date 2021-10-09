@@ -15,7 +15,7 @@ import Menu from "./components/shared/menu/Menu.vue";
 export default {
 
   components: {
-    'meu-menu' : Menu
+    'meu-menu' : Menu 
   },
 
   data() {
